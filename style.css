@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-image: url(images/angel-jimenez.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 6.5rem;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+h1 {
+    margin-left: 90px;
+}
+
+
+
+.div {
+    padding-left: 8.2%;
+    float: left;
+    width: 52%;
+    margin-top: 14%;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: 5.5rem;
+    letter-spacing: 6.5px;
+}
+
+.div .part1 {
+    background: linear-gradient(hsl(355deg 98% 65%), hsl(329deg 91% 45%));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.div p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.div button {
+    background-color: hsl(355deg 98% 65%);
+    border: none;
+    border-radius: 5rem;
+    width: 25%;
+    height: 4rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    /* padding:1rem; */
+}
+
+.div .part2 {
+    line-height: 50px;
+}
+
+
+.images {
+    border-radius: 5%;
+    margin-top: 8%;
+    width: 43rem;
+    height: 55rem;
+    float: right;
+    margin-right: 5.8%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* parte 2 */
+
+.div2 {
+    margin-right: 3%;
+    padding-left: 2%;
+    float: right;
+    width: 50%;
+    margin-top: 11%;
+    margin-bottom: 6%;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif
+}
+
+
+.div2 .part1 {
+
+    background: linear-gradient(hsl(355deg 98% 65%), hsl(329deg 91% 45%));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.div2 .part2 {
+    line-height: 50px;
+}
+
+
+.div2 p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 8%;
+}
+
+.div2 button {
+    background-color: hsl(355deg 98% 65%);
+    border: none;
+    border-radius: 5rem;
+    width: 25%;
+    height: 4rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.images2 {
+    border-radius: 5%;
+    margin-top: 8%;
+    width: 43rem;
+    height: 57rem;
+    float: left;
+    margin-left: 6%;
+}
+
+
+/* ultima parte */
+
+#sec4 {
+    background-image: url(images/john-raptis.png);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#div-padre4 {
+    width: 45%;
+    background-color: transparent;
+    margin-left: 68rem;
+    margin-top: 5rem;
+}
+
+#titulo4 {
+    margin-top: 3rem;
+    color: white;
+    font-size: 70px;
+    line-height: 80px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3.8px;
+}
+
+
+#descripcion4 {
+    margin-top: 2rem;
+    font-size: 22px;
+    line-height: 35px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#button4 {
+    margin-top: 3rem;
+}
+
+button {
+    background-color: hsl(355deg 98% 65%);
+    border: none;
+    border-radius: 5rem;
+    width: 25%;
+    height: 4rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, #fd4c5c, #fd2e5c);
+}
+
+nav {
+    margin-left: 20rem;
+    background-color: transparent;
+    height: 78%;
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 25%;
+}
+
+#section-footer {
+    border-top: 1px white solid;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20rem;
+    height: 22%;
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#p-footer1 {
+    display: flex;
+    justify-content: start;
+    margin-right: 33rem;
+}
+
+#p-footer2 {
+    display: flex;
+    justify-content: end;
+    margin-left: 10.5rem;
+}
+
+.p {
+    width: 100%;
+    text-align: left;
+}
